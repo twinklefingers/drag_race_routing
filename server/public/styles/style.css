@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Back_To_Black;
+    src: url('../imgs/back_to_black.ttf');
+}
+@font-face {
+    font-family: MoonFlower;
+    src: url('../imgs/MoonFlower.ttf');
+}
+@font-face {
+    font-family: MoonFlowerBold;
+    src: url('../imgs/MoonFlowerBold.ttf');
+}
+body {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("../imgs/glitter.jpg");
+}
+footer {
+    font-style: italic;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+header {
+    font-size: 48px;
+    font-weight: bold;
+    color: deeppink;
+    text-shadow: 1px 1px 2px black;
+    padding: 15px;
+    font-family: Back_to_Black;
+}
+a {
+    font-size: 35px;
+    padding: 10px;
+    color: #B6FFFF;
+    font-family: MoonFlower;
+}
+a:hover {
+    color: deeppink;
+    font-family: MoonFlowerBold;
+}
+img {
+    margin-top: 15px;
+}
+.chooseBox {
+    padding-bottom: 10px;
+}
+.homeButton {
+    margin-top: 1px;
+    margin-right: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 50px;
+}
+.chooseText {
+    padding: 0;
+    display: inline;
+    font-family: Back_to_Black;
+    font-size: 30px;
+}
+.description {
+    background-color: #B6FFFF;
+    padding: 15px;
+    border-radius: 15px 50px 30px;
+    font-size: 18px;
+}
+.name {
+    background-color: hsla(330, 100%, 87%, .85);
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 25px;
+    font-family: MoonFlower;
+    font-size: 40px;
+}
