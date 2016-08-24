@@ -1,20 +1,20 @@
 @font-face {
     font-family: Back_To_Black;
-    src: url('../imgs/back_to_black.ttf');
+    src: url('../media/back_to_black.ttf');
 }
 @font-face {
     font-family: MoonFlower;
-    src: url('../imgs/MoonFlower.ttf');
+    src: url('../media/MoonFlower.ttf');
 }
 @font-face {
     font-family: MoonFlowerBold;
-    src: url('../imgs/MoonFlowerBold.ttf');
+    src: url('../media/MoonFlowerBold.ttf');
 }
 body {
     width: 800px;
     margin: 0 auto;
     text-align: center;
-    background-image: url("../imgs/glitter.jpg");
+    background-image: url("../media/glitter.jpg");
 }
 footer {
     font-style: italic;
